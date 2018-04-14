@@ -1,14 +1,12 @@
 var express = require('express')
 var router = express.Router()
+var User = require("../models/user")
 
 router.get('/',function (req, res, next) {
-    if(req.cookies.get('userInfo')){
-        res.render('index',{
-            userInfo:JSON.parse(req.cookies.get('userInfo'))
-        })
-    }else{
-        res.render('index')
-    }
+    console.log(req)
+    res.render('index',{
+        userInfo:req.userInfo
+    })
 })
 
 module.exports = router

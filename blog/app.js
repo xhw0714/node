@@ -3,6 +3,7 @@ var swig = require('swig')
 var mongoose = require('mongoose')
 var bodyParser = require('body-parser')
 var cookies = require('cookies')
+var User = require('./models/user')
 var app = express()
 //设置引擎为swig
 app.engine('html',swig.renderFile)
@@ -16,8 +17,16 @@ app.use(bodyParser.urlencoded({extended:true}))
 
 app.use(function (req, res, next) {
     req.cookies = new cookies(req,res)
+    var userInfo = req.cookies.get('userInfo');
+    if(userInfo){
+        User.findById(JSON.parse(userInfo)._id).then(function (info) {
+            req.userInfo = info
+            next()
+        })
+    }else{
+        next()
+    }
 
-    next()
 })
 swig.setDefaults({
     cache:false

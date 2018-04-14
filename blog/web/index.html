@@ -104,16 +104,20 @@
 
     <div class="mainRight">
         {% if userInfo._id %}
-        <div class="rightBox" id="adminBox" >
+        <div class="rightBox" id="adminBox">
             <div class="title"><span>用户信息</span></div>
             <p><span class="colDark userNameInfo">{{userInfo.userName}}</span></p>
-
+            {% if userInfo.isAdmin %}
+            <p><span class="colDanger">您好，管理员！<a href="/admin" target="_blank">进入管理</a></a></span></p>
+            {% else %}
             <p><span class="colDanger">您好，欢迎来到我的博客</a></span></p>
+            {% endif %}
+
 
             <p><span class="colDark"><a href="javascript:;" id="logoutBtn">退出</a></span></p>
         </div>
         {% else %}
-        <div class="rightBox" id="loginBox" style="display: none;">
+        <div class="rightBox" id="loginBox" >
             <div class="title"><span>登录</span></div>
             <div class="line"><span class="colDark">用户名：</span><input name="userName" type="text"/><em></em></div>
             <div class="line"><span class="colDark">密码：</span><input name="password" type="password"/><em></em></div>
@@ -124,7 +128,7 @@
             <p class="colWarning textCenter"></p>
         </div>
 
-        <div class="rightBox" id="registerBox">
+        <div class="rightBox" id="registerBox" style="display: none;">
             <div class="title"><span>注册</span></div>
             <div class="line"><span class="colDark">用户名：</span><input name="userName" type="text"/></div>
             <div class="line"><span class="colDark">密码：</span><input name="password" type="password"/></div>

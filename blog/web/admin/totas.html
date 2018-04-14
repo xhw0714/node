@@ -1,0 +1,26 @@
+{% extends './layout.html' %}
+
+{% block content %}
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">温馨提示</h3>
+    </div>
+    <div class="panel-body">
+        {{message}}
+    </div>
+
+</div>
+<div class="panel panel-default">
+    <div class="panel-body">
+        {% if url %}
+        <a href="{{url}}">确认</a>
+        {% else %}
+        <a href="javascript:;" onclick="window.history.go(-1)">返回上一页</a>
+        {% endif %}
+
+    </div>
+</div>
+
+{% endblock %}

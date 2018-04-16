@@ -3,17 +3,19 @@
 {% block content %}
 <ol class="breadcrumb">
     <li><a href="/admin">后台首页</a></li>
-    <li><span>用户管理</span></li>
+    <li><span>分类管理</span></li>
 </ol>
 <a class="btn btn-default" href="/admin/category/add/0" role="button">添加</a>
 <table class="table table-bordered">
     <tr>
+        <th>排序</th>
         <th>ID</th>
         <th>分类</th>
         <th>编辑</th>
     </tr>
     {% for category in categoryList %}
     <tr>
+        <td width="100px"><input type="text" class="form-control"  value="{{category.sort}}"></td>
         <td>{{category._id.toString()}}</td>
         <td>{{category.name}}</td>
         <td>
@@ -23,7 +25,7 @@
     </tr>
     {% endfor %}
 </table>
-
+<button class="btn btn-default" id="sortBtn" type="submit">排序</button>
 {% include './page.html' %}
 
 {% endblock %}

@@ -2,21 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="414cf087-b579-4780-a79d-1ee57ad29c68" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/models/content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/schemas/content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/web/admin/content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/web/admin/content_add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/db/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/db/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/db/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/_mdb_catalog.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/db/collection-0--1812791774221649457.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/collection-0--1812791774221649457.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/db/collection-0-6355932263310573681.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/collection-0-6355932263310573681.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/db/collection-2--6214086668356155205.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/collection-2--6214086668356155205.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/db/diagnostic.data/metrics.2018-04-13T13-09-23Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/diagnostic.data/metrics.2018-04-13T13-09-23Z-00000" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/db/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/diagnostic.data/metrics.interim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/db/index-1--1812791774221649457.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/index-1--1812791774221649457.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/db/index-1-6355932263310573681.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/index-1-6355932263310573681.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/db/journal/WiredTigerLog.0000000009" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/journal/WiredTigerLog.0000000009" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/db/index-3--6214086668356155205.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/index-3--6214086668356155205.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/db/journal/WiredTigerLog.0000000009" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/db/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/mongod.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/db/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/sizeStorer.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/routers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routers/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/routers/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routers/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/schemas/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/schemas/category.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/web/admin/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/web/admin/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/web/admin/category_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/web/admin/category_add.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,71 +37,44 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="150">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/routers/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+            <state relative-caret-position="404">
+              <caret line="248" column="6" lean-forward="true" selection-start-line="248" selection-start-column="6" selection-end-line="248" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/schemas/category.js">
+      <file leaf-file-name="content.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/web/admin/content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            <state relative-caret-position="462">
+              <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/web/admin/category.html">
+      <file leaf-file-name="content.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/schemas/content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category_add.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/web/admin/category_add.html">
+      <file leaf-file-name="content.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/models/content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="84" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="totas.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/web/admin/totas.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/html/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/routers/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="45">
+              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -132,7 +109,6 @@
         <option value="$PROJECT_DIR$/blog/routers/api.js" />
         <option value="$PROJECT_DIR$/blog/schemas/user.js" />
         <option value="$PROJECT_DIR$/blog/app.js" />
-        <option value="$PROJECT_DIR$/blog/web/index.html" />
         <option value="$PROJECT_DIR$/blog/web/admin/index.html" />
         <option value="$PROJECT_DIR$/blog/web/admin/page.html" />
         <option value="$PROJECT_DIR$/blog/web/admin/user_index.html" />
@@ -140,11 +116,16 @@
         <option value="$PROJECT_DIR$/blog/web/admin/totas.html" />
         <option value="$PROJECT_DIR$/blog/web/admin/layout.html" />
         <option value="$PROJECT_DIR$/blog/models/category.js" />
-        <option value="$PROJECT_DIR$/blog/web/admin/category.html" />
         <option value="$PROJECT_DIR$/blog/web/admin/category_add.html" />
         <option value="$PROJECT_DIR$/blog/schemas/category.js" />
-        <option value="$PROJECT_DIR$/blog/routers/admin.js" />
         <option value="$PROJECT_DIR$/blog/routers/main.js" />
+        <option value="$PROJECT_DIR$/blog/web/index.html" />
+        <option value="$PROJECT_DIR$/blog/models/content.js" />
+        <option value="$PROJECT_DIR$/blog/web/admin/category.html" />
+        <option value="$PROJECT_DIR$/blog/schemas/content.js" />
+        <option value="$PROJECT_DIR$/blog/web/admin/content_add.html" />
+        <option value="$PROJECT_DIR$/blog/routers/admin.js" />
+        <option value="$PROJECT_DIR$/blog/web/admin/content.html" />
       </list>
     </option>
   </component>
@@ -180,7 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,6 +208,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,12 +284,13 @@
       <workItem from="1523344957071" duration="4612000" />
       <workItem from="1523422695678" duration="7694000" />
       <workItem from="1523520008206" duration="149000" />
-      <workItem from="1523585028854" duration="20226000" />
+      <workItem from="1523585028854" duration="21138000" />
+      <workItem from="1523870918524" duration="2794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48156000" />
+    <option name="totallyTimeSpent" value="51862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -340,37 +322,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/schemas/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1905">
-          <caret line="127" column="34" lean-forward="true" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/html/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/routers/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -506,16 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/web/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -527,13 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="677" column="26" lean-forward="true" selection-start-line="677" selection-start-column="26" selection-end-line="677" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -555,13 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -607,24 +534,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/web/admin/category.html">
+    <entry file="file://$PROJECT_DIR$/blog/web/admin/totas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/routers/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/web/admin/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/web/admin/category_add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="84" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/web/admin/totas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="225">
+          <caret line="15" column="32" selection-end-line="18" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -635,17 +586,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/routers/admin.js">
+    <entry file="file://$PROJECT_DIR$/blog/models/content.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+        <state relative-caret-position="45">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/routers/main.js">
+    <entry file="file://$PROJECT_DIR$/blog/schemas/content.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/web/admin/content_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/web/admin/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/routers/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="248" column="6" lean-forward="true" selection-start-line="248" selection-start-column="6" selection-end-line="248" selection-end-column="6" />
         </state>
       </provider>
     </entry>

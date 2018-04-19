@@ -4,8 +4,10 @@ var User = require('../models/user')
 var category = require('../models/category')
 var content = require('../models/content')
 var mongoose = require('mongoose')
+
 router.use(function (req, res, next) {
     if (req.userInfo && req.userInfo.isAdmin) {
+
         next()
     } else {
         res.send('您没有权限访问后台')

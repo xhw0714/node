@@ -2,25 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="414cf087-b579-4780-a79d-1ee57ad29c68" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/models/content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/schemas/content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/web/admin/content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/web/admin/content_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/db/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/db/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/db/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/_mdb_catalog.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/db/collection-0--1812791774221649457.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/collection-0--1812791774221649457.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/db/collection-0--2908211461446902056.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/collection-0--2908211461446902056.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/db/collection-2--6214086668356155205.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/collection-2--6214086668356155205.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/db/diagnostic.data/metrics.2018-04-13T13-09-23Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/diagnostic.data/metrics.2018-04-13T13-09-23Z-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/db/diagnostic.data/metrics.2018-04-16T09-32-37Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/diagnostic.data/metrics.2018-04-16T09-32-37Z-00000" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/db/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/diagnostic.data/metrics.interim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/db/index-1--1812791774221649457.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/index-1--1812791774221649457.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/db/index-1--2908211461446902056.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/index-1--2908211461446902056.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/db/index-3--6214086668356155205.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/index-3--6214086668356155205.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/db/journal/WiredTigerLog.0000000009" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/db/journal/WiredTigerLog.0000000010" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/db/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/mongod.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/db/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/sizeStorer.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/routers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routers/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/web/admin/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/web/admin/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/web/admin/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/web/admin/layout.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,59 +30,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/routers/admin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="248" column="6" lean-forward="true" selection-start-line="248" selection-start-column="6" selection-end-line="248" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/web/admin/content.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/schemas/content.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/models/content.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -108,13 +59,11 @@
         <option value="$PROJECT_DIR$/blog/html/js/index.js" />
         <option value="$PROJECT_DIR$/blog/routers/api.js" />
         <option value="$PROJECT_DIR$/blog/schemas/user.js" />
-        <option value="$PROJECT_DIR$/blog/app.js" />
         <option value="$PROJECT_DIR$/blog/web/admin/index.html" />
         <option value="$PROJECT_DIR$/blog/web/admin/page.html" />
         <option value="$PROJECT_DIR$/blog/web/admin/user_index.html" />
         <option value="$PROJECT_DIR$/blog/web/admin/user_edit.html" />
         <option value="$PROJECT_DIR$/blog/web/admin/totas.html" />
-        <option value="$PROJECT_DIR$/blog/web/admin/layout.html" />
         <option value="$PROJECT_DIR$/blog/models/category.js" />
         <option value="$PROJECT_DIR$/blog/web/admin/category_add.html" />
         <option value="$PROJECT_DIR$/blog/schemas/category.js" />
@@ -124,8 +73,11 @@
         <option value="$PROJECT_DIR$/blog/web/admin/category.html" />
         <option value="$PROJECT_DIR$/blog/schemas/content.js" />
         <option value="$PROJECT_DIR$/blog/web/admin/content_add.html" />
-        <option value="$PROJECT_DIR$/blog/routers/admin.js" />
         <option value="$PROJECT_DIR$/blog/web/admin/content.html" />
+        <option value="$PROJECT_DIR$/blog/app.js" />
+        <option value="$PROJECT_DIR$/blog/web/admin/layout.html" />
+        <option value="$PROJECT_DIR$/blog/routers/admin.js" />
+        <option value="$PROJECT_DIR$/test/app.js" />
       </list>
     </option>
   </component>
@@ -148,10 +100,12 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/blog/node_modules" />
+    <handled-path value="$PROJECT_DIR$/test/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="824" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -177,32 +131,7 @@
               <item name="node" type="b2602c69:ProjectViewProjectNode" />
               <item name="node" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="routers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="schemas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,16 +175,19 @@
   </component>
   <component name="RunManager" selected="Node.js.app.js (1)">
     <configuration name="app.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/blog" />
+    <configuration name="app.js (2)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/test" />
     <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$" />
     <configuration name="http.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="http.js" working-dir="$PROJECT_DIR$" />
     <list>
       <item itemvalue="Node.js.app.js" />
       <item itemvalue="Node.js.http.js" />
       <item itemvalue="Node.js.app.js (1)" />
+      <item itemvalue="Node.js.app.js (2)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.app.js (1)" />
+        <item itemvalue="Node.js.app.js (2)" />
         <item itemvalue="Node.js.http.js" />
         <item itemvalue="Node.js.app.js" />
       </list>
@@ -285,23 +217,24 @@
       <workItem from="1523422695678" duration="7694000" />
       <workItem from="1523520008206" duration="149000" />
       <workItem from="1523585028854" duration="21138000" />
-      <workItem from="1523870918524" duration="2794000" />
+      <workItem from="1523870918524" duration="9576000" />
+      <workItem from="1524021547102" duration="2052000" />
+      <workItem from="1524045323704" duration="718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51862000" />
+    <option name="totallyTimeSpent" value="61414000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="824" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27030304" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27030304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24947146" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.2509091" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -310,9 +243,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,13 +255,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/routers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/routers/api.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -471,13 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/web/admin/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/schemas/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -503,13 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/routers/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" column="19" lean-forward="true" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -552,9 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -586,6 +495,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/web/admin/content_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/models/content.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -596,35 +512,49 @@
     <entry file="file://$PROJECT_DIR$/blog/schemas/content.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/web/admin/content_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/web/admin/content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        <state relative-caret-position="313">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/web/admin/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/routers/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/routers/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="248" column="6" lean-forward="true" selection-start-line="248" selection-start-column="6" selection-end-line="248" selection-end-column="6" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -41,7 +41,7 @@ mongoose.connect('mongodb://localhost:27018/blog',function (err) {
     if (err){
         console.log('数据库连接失败')
     } else{
-        console.log('数据库连接成功')
+        console.log('数据库连接成功!')
         app.listen('8887')
     }
 })

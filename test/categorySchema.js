@@ -3,10 +3,7 @@ var category = require('./category')
 
 var categorySchema = mongoose.Schema({
     name:String,
-    childCategory:[category]
+    pid:String
 })
-categorySchema.methods.addChildCategory = function(id,cb){
-    this.model('category').findById(id,cb)
-}
 
 module.exports = categorySchema

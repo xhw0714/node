@@ -23,7 +23,7 @@ app.use(function (req, res, next) {
             req.userInfo = info
             next()
         })
-    }else{
+    }else{1
         next()
     }
 

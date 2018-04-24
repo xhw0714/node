@@ -243,6 +243,7 @@ router.post('/content/add/:content_id', function (req, res, next) {
 })
 
 router.get('/content', function (req, res, next) {
+    // console.log(1)
     var limit = 4;
     var page = 1
     content.count().then(function (count) {

@@ -38,16 +38,34 @@ app.post('/category/add/:id',function (req, res, next) {
             }
         })
     }else{
-        // console.log(req.body.name)
-        // var name = req.body.name
-        (new category).addChildCategory(req.params.id,function (err,info) {
-            if(!err){
-                info.childCategory.push(new category({name:req.body.name}))
-                // info.name = 'Css'
-                info.save()
+        new category({name:req.body.name,pid:req.params.id}).save(function (err) {
+            if (!err){
                 resData.message = '保存成功'
                 res.json(resData)
             }
         })
     }
+})
+
+app.get('/category',function (req, res, next) {
+    category.find().sort({name:-1}).then(function (info) {
+        // console.log(info)
+        if (info){
+            var arr = [];
+            var newinfo = JSON.parse(JSON.stringify(info))
+            for (var i = 0,len = newinfo.length;i<len;i++){
+                newinfo[i].child = []
+                newinfo[i].child[0]
+                if(!newinfo[i].pid) {
+                    arr.push(newinfo[i])
+                }
+                for (var j = 0;j<len;j++){
+                    if (newinfo[i]._id == newinfo[j].pid){
+                        newinfo[i].child.push(newinfo[j])
+                    }
+                }
+            }
+        }
+        res.json({data:arr})
+    })
 })

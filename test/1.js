@@ -49,13 +49,11 @@ app.post('/category/add/:id',function (req, res, next) {
 
 app.get('/category',function (req, res, next) {
     category.find().sort({name:-1}).then(function (info) {
-        // console.log(info)
+        var arr = []
         if (info){
-            var arr = [];
             var newinfo = JSON.parse(JSON.stringify(info))
             for (var i = 0,len = newinfo.length;i<len;i++){
                 newinfo[i].child = []
-                newinfo[i].child[0]
                 if(!newinfo[i].pid) {
                     arr.push(newinfo[i])
                 }

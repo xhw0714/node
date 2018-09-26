@@ -6,12 +6,17 @@
     "node_modules/**"
   ],
   "plugins": {
-    "doc_comment": true,
     "node": {
       "dontLoad": "",
       "load": "",
       "modules": ""
     },
-    "node_resolve": {}
+    "doc_comment": {
+      "fullDocs": true,
+      "strong": false
+    },
+    "complete_strings": {
+      "maxLength": 15
+    }
   }
 }
